@@ -29,7 +29,7 @@ class IndexControllerTest extends AbstractHttpControllerTestCase
         parent::setUp();
     }
 
-    public function testIndexActionCanBeAccessed()
+   /* public function testIndexActionCanBeAccessed()
     {
         $this->dispatch('/', 'GET');
         $this->assertResponseStatusCode(200);
@@ -49,5 +49,5 @@ class IndexControllerTest extends AbstractHttpControllerTestCase
     {
         $this->dispatch('/invalid/route', 'GET');
         $this->assertResponseStatusCode(404);
-    }
+    }*/
 }
